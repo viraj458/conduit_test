@@ -15,3 +15,6 @@ ports:
 
   - port: 3306
     onOpen: ignore
+
+  - port: 80
+    onOpen: open-browser
